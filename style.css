@@ -2,29 +2,18 @@ body{
   font-family: 'Open Sans', sans-serif;
   background-color: 
   #2C2B3D;
-  width: 100%;
-  height: 100vh;
+
 
 }
 
-.page {
-  width: 100%;
-  height: 100vh;
-  margin: 0 auto;
-}
 
-#text {
-  height: 283px;
-}
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1083px;
-  height: 30px;
-  padding-top: 71px;
-  margin-left: 116px;
+ padding: 100px;
+ 
  
 }
 ul {
@@ -48,13 +37,10 @@ ul li a:hover {
 }
 main { 
   display: flex;
-  align-items: center ;
-  justify-content:space-between;
-  
-  width: 1092px;
-  height: 283px;
-  margin: 101px 89px 157px 99px; 
- align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
 
  }
 
@@ -122,11 +108,11 @@ footer {
   line-height: 28px;
   text-align: center; 
   color: white;
-  width: 462px;
-  height: 28px;
-  margin: 0px;
-  margin-bottom: 23px;
-  margin-left: 397px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
 }
 
 
